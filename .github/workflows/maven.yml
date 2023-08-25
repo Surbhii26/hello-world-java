@@ -43,7 +43,7 @@ jobs:
     - name:  Push Docker Image
       run: docker push surbhayy/hello-world-java-demo:0.0.1.Release 
     - name: Deploy to Prod Environment
-      run: docker run -p 5000:5000 surbhayy/hello-world-java-demo:0.0.3.Release
+      run: docker run -p 5000:5000 surbhayy/hello-world-java-demo:0.0.1.Release
       
       
       
